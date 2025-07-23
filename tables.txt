@@ -1,0 +1,10 @@
+                List of relations
+ Schema |      Name       | Type  |    Owner     
+--------+-----------------+-------+--------------
+ public | converted_songs | table | neondb_owner
+ public | payment_history | table | neondb_owner
+ public | subscriptions   | table | neondb_owner
+ public | usage_limits    | table | neondb_owner
+ public | users           | table | neondb_owner
+(5 rows)
+

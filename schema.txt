@@ -1,0 +1,37 @@
+   table_name    |     column_name      |          data_type          
+-----------------+----------------------+-----------------------------
+ users           | email                | character varying
+ converted_songs | converted_url        | character varying
+ subscriptions   | id                   | integer
+ subscriptions   | status               | character varying
+ usage_limits    | conversions_used     | integer
+ converted_songs | id                   | integer
+ usage_limits    | id                   | integer
+ subscriptions   | cancel_at_period_end | boolean
+ converted_songs | file_path            | character varying
+ converted_songs | user_id              | integer
+ usage_limits    | conversions_limit    | integer
+ payment_history | stripe_payment_id    | character varying
+ subscriptions   | stripe_plan_id       | character varying
+ payment_history | currency             | character varying
+ usage_limits    | period_end           | timestamp without time zone
+ payment_history | id                   | integer
+ payment_history | amount               | numeric
+ users           | subscription_status  | character varying
+ subscriptions   | current_period_end   | timestamp without time zone
+ converted_songs | created_at           | timestamp without time zone
+ payment_history | created_at           | timestamp without time zone
+ subscriptions   | current_period_start | timestamp without time zone
+ users           | created_at           | timestamp without time zone
+ converted_songs | status               | character varying
+ usage_limits    | period_start         | timestamp without time zone
+ payment_history | user_id              | integer
+ usage_limits    | user_id              | integer
+ users           | password             | character varying
+ payment_history | status               | character varying
+ subscriptions   | user_id              | integer
+ users           | id                   | integer
+ converted_songs | original_name        | character varying
+ users           | stripe_customer_id   | character varying
+(33 rows)
+
